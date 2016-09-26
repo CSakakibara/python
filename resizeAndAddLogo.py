@@ -21,7 +21,7 @@ for filename in os.listdir('.'):
     im = Image.open(filename)
     width, height = im.size
 
-    # Check if image needs to be resized.
+    # Check if be resized.
     if width > SQUARE_FIT_SIZE and height > SQUARE_FIT_SIZE:
         # Calculate the new width and height to resize to.
         if width > height:
